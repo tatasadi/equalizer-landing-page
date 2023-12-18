@@ -5,6 +5,19 @@
 @layer base {
   body {
     font-family: 'IBM Plex Sans', sans-serif;
+    @apply text-dark-blue bg-light;
+  }
+
+  h1 {
+    @apply text-[2.5rem] font-bold leading-[3rem] tracking-[-0.02844rem] sm:text-[4rem] sm:leading-[4rem] sm:tracking-[-0.04544rem] lg:text-[5.5rem] lg:leading-[5.5rem] lg:tracking-[-0.0625rem];
+  }
+
+  h2 {
+    @apply text-[2rem] font-bold leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.25rem];
+  }
+
+  p {
+    @apply text-base leading-[1.625rem] sm:text-lg sm:leading-7 lg:text-xl lg:leading-[2.125rem];
   }
 }
 

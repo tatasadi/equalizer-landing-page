@@ -7,8 +7,12 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <main className="sm:px-8 sm:py-16">
-      <div className="px-4 py-6 sm:p-0">
+    <main className="relative sm:px-8 sm:py-16">
+      <picture className="absolute right-[-2.08rem] top-0 z-0 hidden max-w-[12.5rem] sm:block lg:right-0 lg:max-w-[16rem]">
+        <source srcSet="/images/bg-pattern-1.svg" type="image/svg+xml" />
+        <img src="/images/bg-pattern-1.svg" alt="Background Pattern" />
+      </picture>
+      <div className="z-1 relative px-4 py-6 sm:p-0 sm:pr-[12.5rem] lg:pr-[18rem]">
         <Logo />
         <h1 className="mt-16 sm:mt-24">We make your music sound extraordinary.</h1>
         <p className="mt-5 sm:mt-7">
@@ -17,19 +21,19 @@ export default function Index() {
         </p>
       </div>
       <div className="relative">
-        <div className="mt-40">
-          <picture className="z-1 absolute left-0 right-0 top-[-6.12rem] mx-auto w-60 sm:top-[-8rem] sm:ml-16">
+        <div className="mt-40 sm:mt-56">
+          <picture className="z-1 absolute left-0 right-0 top-[-6.12rem] mx-auto w-60 sm:top-[-8rem] sm:ml-16 lg:top-[-12rem] lg:ml-36 lg:w-80">
             <source srcSet="/images/illustration-app.png" type="image/png" />
             <img src="/images/illustration-app.png" alt="Illustration of Equalizer App" />
           </picture>
         </div>
-        <div className="flex justify-center rounded-xl bg-dark-blue sm:items-start sm:pb-[12rem]">
+        <div className="flex justify-center rounded-xl bg-dark-blue sm:items-start sm:pb-[12rem] lg:pr-36">
           <picture>
             <source srcSet="/images/bg-pattern-2.svg" type="image/svg+xml" />
             <img src="/images/bg-pattern-2.svg" alt="Background Pattern" />
           </picture>
         </div>
-        <div className="z-1 relative mt-[-2rem] rounded-xl bg-bright-red px-10 py-12 text-light sm:ml-[13.7rem] sm:mt-[-29rem] sm:w-[24.9375rem]">
+        <div className="z-1 relative mt-[-2rem] rounded-xl bg-bright-red px-10 py-12 text-light sm:ml-[13.7rem] sm:mt-[-29rem] sm:w-[24.9375rem] lg:ml-auto lg:mr-36 lg:mt-[-30rem] lg:w-[28.875rem]">
           <h2 className="lg:text mb-3">Premium EQ</h2>
           <p className="mb-9">
             Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening
@@ -55,11 +59,11 @@ export default function Index() {
           </button>
         </div>
         <div className="flex flex-col px-6 py-16 sm:flex-row sm:items-center sm:justify-between">
-          <div className="sm:max-w-[22.875rem]">
-            <div className="mb-8">
+          <div className="flex flex-col sm:max-w-[22.875rem] lg:max-w-[43rem] lg:flex-row lg:gap-16">
+            <div className="mb-8 min-w-fit">
               <Logo />
             </div>
-            <p className="mb-16">
+            <p className="mb-16 sm:mb-0">
               All rights reserved © Equalizer 2021 Have any problems? Contact us via social media or email us at
               <div className="font-bold">equalizer@example.com</div>
             </p>

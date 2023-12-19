@@ -29,7 +29,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="mx-auto flex min-h-screen max-w-6xl flex-col items-start bg-[url('/images/bg-main-mobile.png')] bg-no-repeat sm:bg-[url('/images/bg-main-tablet.png')] lg:bg-[url('/images/bg-main-tablet.png')]">
+      <body className="mx-auto flex min-h-screen max-w-7xl flex-col items-start bg-[url('/images/bg-main-mobile.png')] bg-no-repeat sm:bg-[url('/images/bg-main-tablet.png')] lg:bg-[url('/images/bg-main-tablet.png')]">
         <Outlet />
         <Footer className="m-4 mt-auto" />
         <ScrollRestoration />

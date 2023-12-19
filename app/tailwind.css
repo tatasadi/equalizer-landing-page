@@ -26,7 +26,7 @@
     @apply cursor-pointer font-bold text-bright-red underline;
   }
 
-  .social-icon {
+  .social-icon path {
     @apply cursor-pointer hover:fill-bright-red;
   }
 }

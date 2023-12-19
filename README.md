@@ -22,12 +22,15 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
--
 
 ### Screenshots
 
+**Desktop**
 ![](./screenshot1.jpg)
+**Tablet**
 ![](./screenshot2.jpg)
+**Mobile**
+![](./screenshot3.jpg)
 
 ### Links
 
@@ -40,7 +43,6 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Remix](https://remix.run/) - React framework

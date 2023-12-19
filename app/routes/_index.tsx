@@ -43,14 +43,14 @@ export default function Index() {
             <span className="text-[4.0625rem] font-bold leading-[3.25rem]">$4</span>
             <span>/ month</span>
           </p>
-          <button className="mb-4 flex w-full items-center justify-center gap-2 rounded-xl bg-dark-blue py-4">
+          <button className="mb-4 flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl bg-dark-blue py-4 hover:bg-medium-light-cyan">
             <picture>
               <source srcSet="/images/icon-apple.svg" type="image/svg+xml" />
               <img src="/images/icon-apple.svg" alt="Apple Icon" />
             </picture>
             <p className="font-bold">iOS Download</p>
           </button>
-          <button className="flex w-full items-center justify-center gap-1 rounded-xl bg-light py-4 font-bold text-dark-blue">
+          <button className="flex w-full cursor-pointer items-center justify-center gap-1 rounded-xl bg-light py-4 font-bold text-dark-blue hover:bg-vivid-orange">
             <picture>
               <source srcSet="/images/icon-android.svg" type="image/svg+xml" />
               <img src="/images/icon-android.svg" alt="Android Icon" />
@@ -69,15 +69,15 @@ export default function Index() {
             </p>
           </div>
           <div className="flex gap-6">
-            <picture>
+            <picture className="social-icon">
               <source srcSet="/images/icon-facebook.svg" type="image/svg+xml" />
               <img src="/images/icon-facebook.svg" alt="Facebook Icon" />
             </picture>
-            <picture>
+            <picture className="social-icon">
               <source srcSet="/images/icon-instagram.svg" type="image/svg+xml" />
               <img src="/images/icon-instagram.svg" alt="Instagram Icon" />
             </picture>
-            <picture>
+            <picture className="social-icon">
               <source srcSet="/images/icon-twitter.svg" type="image/svg+xml" />
               <img src="/images/icon-twitter.svg" alt="Twitter Icon" />
             </picture>

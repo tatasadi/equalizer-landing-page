@@ -25,4 +25,8 @@
   .footer-link {
     @apply cursor-pointer font-bold text-bright-red underline;
   }
+
+  .social-icon {
+    @apply cursor-pointer hover:fill-bright-red;
+  }
 }
